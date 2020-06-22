@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Canvas Image Crop</title>
+	<script type="text/javascript" src="jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="js/canvas_image_crop.js"></script>
+	<link rel="stylesheet" type="text/css" href="demo.css" />
+</head>
+<body>
+	<table class="container_canvas_demo">
+		<tbody>
+			<tr>
+				<td>
+					<button onclick="JCanvasImageCrop.zoomIn()">+</button>
+					<button onclick="JCanvasImageCrop.zoomOut()">-</button>
+					<button onclick="JCanvasImageCrop.zoomOff()">x</button>
+				</td>
+				<td rowspan="2">
+					<p>cropped image:</p>
+					<canvas id="canvas_crop" class="hide"></canvas>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="canvas_container">
+						<canvas id="canvas" class="hide"></canvas>
+					</div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<script type="text/javascript">
+		JCanvasImageCrop.init(
+				// canvasId
+				'canvas',
+				// canvasCropId
+				'canvas_crop',
+			 	// imageUrl
+				'https://www.w3schools.com/html/pic_trulli.jpg'
+			);
+	</script>
+</body>
+</html>

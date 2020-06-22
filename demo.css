@@ -1,0 +1,26 @@
+.container_canvas_demo {
+	width: 600px;
+	border-spacing: 0;
+	margin-top: 100px;
+	margin-left: 100px;
+}
+
+.container_canvas_demo tr:nth-child(1) {
+	height: 32px;
+}
+
+.container_canvas_demo tr td:nth-child(1) {
+	width: 300px;
+}
+
+.container_canvas_demo td {
+	border: 1px solid #ddd;
+	vertical-align: top;
+}
+
+.canvas_container {
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+	overflow: auto;
+}
