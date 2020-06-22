@@ -1,7 +1,6 @@
 # canvas-image-crop
 
-created: Jun 22, 2020 2:23 PM
-last edited time: Jun 22, 2020 2:26 PM
+Live Demo: https://jsfiddle.net/vietvo90s/d8vfwm0g/12/
 
 ### Screenshot
 
